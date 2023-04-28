@@ -13,7 +13,7 @@ const App = ()=> {
  
     return (
       <div>
-        <Router  basename="/">
+        <Router  basename="/FastNewsApp">
         <NavBar/> 
         <LoadingBar height={3} color='#f11946' progress={progress} />
           <Routes>
